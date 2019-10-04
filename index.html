@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React Hello World</title>
+</head>
+<body>
+    <div id="application-root"></div>
+  
+
+    <script
+  src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+  <script
+    src="https://unpkg.com/react@16/umd/react.development.js">
+  </script>
+  <script
+    src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+  </script>
+  <script type="text/babel">
+    function App() {
+    return (
+    <main role="main">
+        <header>
+            <div class="hed">
+                <h1>Sally Student</h1>
+            </div>
+        </header>
+
+
+      <div class="bod">
+            <section>
+                <header>
+                    <h2>Education:</h2>
+                </header>
+
+                <ul>
+                    <li>Harvard</li>
+                    <li>Yale</li>
+                </ul>
+            </section>
+            <section>
+            <header>
+                <h2>Employment History:</h2>
+            </header>
+            <section>
+                <p>2) Google</p>
+                <p>Manager</p>
+                <p>Dates of Employment: June 2106-June 2018</p>
+                <p>Job Description:</p>
+
+                        <ul>
+                            <li>Managed over 30 employees</li>
+                            <li>Increased overall revenue by 10%</li>
+                        </ul>
+            </section>
+            <section>
+                <p>Bird</p>
+      </ol>
+                <p>Sales Manager</p>
+                <p>Dates of employment June: 2014-June2016</p>
+
+                <p>Job Description:</p>
+                <ul>
+                    <li>Managed a group of 10 employees</li>
+                    <li>Facilitated financing program</li>
+                </ul>
+      </ol>
+            </section>
+        </div>
+        //</section>
+    //</main>
+        <address>
+        <p>Contact Info:</p>
+            <a href="mailto:sallystudent@thinkful.com">sallystudent@thinkful.com</a>
+            <p>(567)-245-2638</p>
+        </address>
+    ); }
+    ReactDOM.render(
+  <App />,
+  document.querySelector('#application-root')
+    );</script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </body>
+</html>
